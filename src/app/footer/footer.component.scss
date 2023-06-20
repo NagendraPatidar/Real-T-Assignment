@@ -1,0 +1,113 @@
+.footer {
+    padding: 30px 0;
+    background: #424242;
+    hr {
+        margin: 15px 0 30px 0;
+        border-top-color: #949c9e;
+    }
+    .ftext {
+        color: #949c9e;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 10px 0;
+        max-width: 300px;
+    }
+    .footmenu-main {
+        float: right;
+        .footmenu {
+            float: left;
+            margin-left: 100px;
+            .ftitle {
+                color: #949c9e;
+                font-weight: 400;
+                font-size: 14px;
+                margin-bottom: 14px;
+            }
+            .links {
+                display: block;
+                color: #fff;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.2;
+                margin-bottom: 14px;
+            }
+        }
+    }
+    .copytext {
+        color: #949c9e;
+        font-size: 12px;
+        font-weight: 400;
+        float: left;
+        margin-top: 3px;
+    }
+    .social {
+        float: right;
+        a {
+            float: left;
+            color: #fff;
+            width: 24px;
+            height: 24px;
+            padding: 4px 2px;
+            margin-left: 20px;
+            font-size: 14px;
+            text-align: center;
+            border-radius: 100%;
+            border: 1px solid #ffffff;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer .container {
+        max-width: 1240px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        .footmenu-main {
+            .footmenu {
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        .footmenu-main {
+            .footmenu {
+                margin-left: 0;
+                margin-right: 30px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 10px 0;
+        hr {
+            margin: 15px 0;
+        }
+        .flogo {
+            img {
+                max-width: 110px;
+            }
+        }
+        .footmenu-main {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .footmenu {
+                margin-right: 20px;
+            }
+        }
+        .social {
+            a {
+                margin-left: 10px;
+            }
+        }
+    }
+}
